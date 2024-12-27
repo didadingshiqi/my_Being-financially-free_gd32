@@ -1,0 +1,6 @@
+--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Firmware\CMSIS\GD\GD32F10x\Include -I ..\..\Firmware\CMSIS -I ..\..\Utilities -I ..\ -I ..\..\Utilities\LCD_common -I ..\..\Firmware\GD32F10x_standard_peripheral\Include
+-I.\RTE\_GD32F10X_HD
+-IE:\1WDAPP\keil5\Arm\Packs\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include
+-IE:\1WDAPP\keil5\ARM\CMSIS\Include
+-D__UVISION_VERSION="527" -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD
+-o .\output\gd32f10x_timer.o --omf_browse .\output\gd32f10x_timer.crf --depend .\output\gd32f10x_timer.d --feedback ".\output\Project.fed" "..\..\Firmware\GD32F10x_standard_peripheral\Source\gd32f10x_timer.c"
